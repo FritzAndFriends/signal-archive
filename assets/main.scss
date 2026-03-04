@@ -1,0 +1,147 @@
+---
+---
+
+@import "minima";
+
+// Dark terminal theme — signal-archive
+:root {
+  --bg: #0a0a0a;
+  --bg-secondary: #111111;
+  --text: #b0b0b0;
+  --text-bright: #d0d0d0;
+  --accent: #00ff41;
+  --accent-dim: #009926;
+  --link: #00ff41;
+  --link-hover: #33ff66;
+  --border: #1a1a1a;
+  --code-bg: #0d0d0d;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Courier New', 'Consolas', 'Monaco', monospace;
+}
+
+.site-header {
+  background-color: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.site-title, .site-title:visited {
+  color: var(--accent) !important;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+}
+
+.page-link, .page-link:visited {
+  color: var(--text) !important;
+}
+
+.page-link:hover {
+  color: var(--accent) !important;
+  text-decoration: none;
+}
+
+a, a:visited {
+  color: var(--link);
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: none;
+}
+
+.site-footer {
+  background-color: var(--bg);
+  border-top: 1px solid var(--border);
+  color: var(--text);
+}
+
+.post-title, .post-title a {
+  color: var(--text-bright) !important;
+  font-family: 'Courier New', monospace;
+}
+
+.post-meta {
+  color: var(--accent-dim);
+  font-family: 'Courier New', monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-bright);
+  font-family: 'Courier New', monospace;
+}
+
+blockquote {
+  border-left: 3px solid var(--accent-dim);
+  color: var(--text-bright);
+  background-color: var(--bg-secondary);
+  padding: 8px 16px;
+  font-style: normal;
+}
+
+code, pre {
+  background-color: var(--code-bg);
+  color: var(--accent);
+  border: 1px solid var(--border);
+  font-family: 'Courier New', monospace;
+}
+
+hr {
+  border-color: var(--border);
+}
+
+strong {
+  color: var(--text-bright);
+}
+
+.post-content {
+  color: var(--text);
+}
+
+.wrapper {
+  max-width: 720px;
+}
+
+.post-list-heading {
+  color: var(--text-bright);
+}
+
+.post-link, .post-link:visited {
+  color: var(--accent) !important;
+}
+
+.post-link:hover {
+  color: var(--link-hover) !important;
+}
+
+.site-nav .page-link {
+  color: var(--text);
+}
+
+.footer-col {
+  color: var(--text);
+}
+
+table {
+  color: var(--text);
+  border-color: var(--border);
+}
+
+table th {
+  background-color: var(--bg-secondary);
+  color: var(--text-bright);
+  border-color: var(--border);
+}
+
+table td {
+  border-color: var(--border);
+}
+
+// Responsive YouTube embeds
+iframe[src*="youtube"] {
+  max-width: 100%;
+  margin: 1em 0;
+}

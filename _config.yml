@@ -7,7 +7,7 @@ theme: minima
 
 future: true
 
-permalink: /week-:title/
+permalink: /:title/
 
 # No author info — the observer remains unnamed
 header_pages:

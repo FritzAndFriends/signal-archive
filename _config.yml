@@ -1,0 +1,15 @@
+title: signal-archive
+description: "Tracking anomalies in chatbot behavior during FritzAndFriends streams"
+baseurl: "/signal-archive"
+url: "https://fritzandfriends.github.io"
+
+theme: minima
+
+permalink: /week-:title/
+
+# No author info — the observer remains unnamed
+header_pages:
+  - about.md
+
+plugins:
+  - jekyll-feed

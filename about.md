@@ -23,6 +23,6 @@ The data is archived here as received. Make of it what you will.
 ---
 
 **Source stream:** [twitch.tv/csharpfritz](https://twitch.tv/csharpfritz) — Tuesday & Thursday, 9am ET  
-**Community discussion:** [Fritz and Friends Discord](https://discord.gg/csharpfritz) — #signals channel
+**Community discussion:** [Fritz and Friends Discord](http://discord.csharpfritz.com) — #signals channel
 
 Observation continues.

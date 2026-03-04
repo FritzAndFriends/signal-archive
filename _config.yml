@@ -5,6 +5,8 @@ url: "https://fritzandfriends.github.io"
 
 theme: minima
 
+future: true
+
 permalink: /week-:title/
 
 # No author info — the observer remains unnamed

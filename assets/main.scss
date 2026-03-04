@@ -1,6 +1,7 @@
 ---
 ---
 
+@import url('https://cdn.jsdelivr.net/npm/@fontsource/cascadia-code@latest/index.min.css');
 @import "minima";
 
 // Dark terminal theme — signal-archive
@@ -30,7 +31,7 @@ body {
 
 .site-title, .site-title:visited {
   color: var(--accent) !important;
-  font-family: 'Courier New', monospace;
+  font-family: 'Cascadia Code', 'Courier New', monospace;
   letter-spacing: 2px;
   text-transform: lowercase;
 }

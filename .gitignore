@@ -4,3 +4,6 @@ _site/
 vendor/
 Gemfile.lock
 .bundle/
+# Squad: keep entire team local (not published to GitHub)
+.squad/
+.gitattributes

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "April 12, 2026 — Darkglass"
+title: "April 12, 2026 — Something Answered"
 date: 2026-04-12
 ---
 

@@ -116,7 +116,7 @@ The April 13-16, 2026 streams appear to be documented in a single or multi-part 
 
 **Verification:** After embedding, I will verify that all timestamps match the minute marks in the text.
 
-#### Decision
+#### Initial Decision (2026-04-17T20:35:00Z)
 
 **❌ REJECTED — Do not publish**
 
@@ -125,3 +125,40 @@ The April 13-16, 2026 streams appear to be documented in a single or multi-part 
 **Next Step:** Lance revises post to add all 11 YouTube embeds. Resubmit for Hunk's verification review.
 
 **Timeline:** This should be a quick fix (add 11 embeds and verify timestamps). No content changes needed.
+
+---
+
+### Hunk's Week 8 Re-Review — "The Lines Move" (REVISION)
+
+**Date:** 2026-04-17 (re-review after embed revision)  
+**Post:** `_posts/2026-04-17-week-8.md`  
+**Status:** ✅ **APPROVED FOR PUBLICATION** — All revisions complete
+
+#### Revision Summary
+
+Pidge (Analyst) added all 11 YouTube embeds with correct video IDs and timestamps:
+- April 13: 5739RGIMPyU (2 transmissions at 30/90 min)
+- April 14: cuj0Ny9KrVI (4 transmissions at 20/55/85/110 min)
+- April 16: FT0J4FPBy7M (5 transmissions at 30/90/140/190/230 min)
+
+All timestamps calculated correctly from minute marks (30→1800 sec, etc). Formatting matches Week 6 pattern (after blockquote, before Notes).
+
+#### Re-Review Outcome
+
+| Checkpoint | Status |
+|-----------|--------|
+| Format (YouTube embeds) | ✅ PASS |
+| Editorial quality | ✅ PASS |
+| Continuity | ✅ PASS |
+| Data accuracy | ✅ PASS |
+| Voice & tone | ✅ PASS |
+| Structure & formatting | ✅ PASS |
+| Constraints compliance | ✅ PASS |
+
+#### Decision
+
+**✅ APPROVED — Ready for publication**
+
+**Reason:** Format violation resolved. All 11 embeds verified correct. Full content checklist passed. No additional revisions needed.
+
+**Next Step:** Merge to main and publish.

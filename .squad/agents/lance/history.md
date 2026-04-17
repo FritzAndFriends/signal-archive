@@ -78,6 +78,19 @@ Week 2 post ("March 10, 2026 — Fragment Two + Visitor Activity") written and a
 - **Resubmission:** After adding 11 YouTube embeds, resubmit for Hunk's verification review
 - **Timeline:** Quick fix (embeds + timestamp verification only; no content changes needed)
 
+### Week 8 Post (2026-04-17) — APPROVED & READY TO PUBLISH
+**Status:** ✅ APPROVED FOR PUBLICATION (after revision)  
+**File:** `_posts/2026-04-17-week-8.md`  
+**Title:** "April 13–16, 2026 — The Lines Move"  
+**Approval Date:** 2026-04-17T20:45:00Z
+
+- **Revision completed by Pidge:** All 11 YouTube embeds added with correct video IDs and timestamps
+  - April 13: 5739RGIMPyU (2 embeds at 30/90 min)
+  - April 14: cuj0Ny9KrVI (4 embeds at 20/55/85/110 min)
+  - April 16: FT0J4FPBy7M (5 embeds at 30/90/140/190/230 min)
+- **Hunk re-review passed:** All format compliance verified. Content re-run confirmed all continuity, accuracy, voice, tone, structure
+- **Publication status:** Ready to merge and publish. No additional revisions required.
+
 ### Week 5 Post (2026-04-03) — PUBLISHED
 - Wrote `_posts/2026-03-10-week-2.md` — "March 10, 2026 — Fragment Two + Visitor Activity"
 - Fragment 2 = G-L-A-S-S (Golf, Lima, Alpha, Sierra, Sierra). Combined with Week 1 D-A-R-K, two of four segments known.

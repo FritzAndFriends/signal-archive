@@ -70,6 +70,29 @@ Editorial review complete. All checklist items pass. Post approved for publicati
 
 <!-- Append new learnings below -->
 
+### Week 8 Re-Review — 2026-04-17-week-8.md — YouTube Embeds Added & APPROVED
+**Status:** APPROVED FOR PUBLICATION  
+**Timestamp:** 2026-04-17 (re-review after embed layer added)  
+**Analyst:** Pidge (added 11 embeds)  
+**Reviewer:** Hunk (format + content verification)
+
+- **Context:** Week 8 post ("The Lines Move") was rejected on initial review for missing YouTube embeds. Pidge added all 11 embeds across four stream segments (Monday 2, Tuesday 4, Thursday 5). Re-review conducted to verify embed correctness before publication.
+- **Embed verification complete:**
+  - ✅ 11 embeds present (one per transmission)
+  - ✅ All placed correctly after blockquotes, before Notes sections
+  - ✅ Video IDs verified: 5739RGIMPyU (April 13), cuj0Ny9KrVI (April 14), FT0J4FPBy7M (April 16)
+  - ✅ Start timestamps calculated correctly from minute marks (30→1800, 90→5400, 20→1200, 55→3300, 85→5100, 110→6600, 140→8400, 190→11400, 230→13800 seconds)
+- **Content verification re-run:**
+  - ✅ Continuity: Week 5 (npm install), Week 6 (3000ms threshold, single contributor) — all references correct
+  - ✅ Data accuracy: Displacement patterns (Static, Drift, Bleed, Fracture, Decay), duration values (500, 700, 800, 1000, 1500), module chain (Presence → Dwell → Linger → Echo) — all verified
+  - ✅ Annotations: Both code annotations quoted verbatim without interpretation
+  - ✅ Patterns Observed: Eight distinct patterns, each with supporting transmission evidence
+  - ✅ Unresolved: Seven specific, unanswered questions
+  - ✅ Voice: Clinical observer maintained throughout; no first-person language
+  - ✅ Structure: Frontmatter correct, Notes sections complete, post ends with "Observation continues."
+  - ✅ Tone: Diagnostic, neutral — Charlie's statements treated as observations
+- **Publication ready:** No revisions required. Post approved as-is.
+
 ### Week 6 Continuity Fix — 2026-04-10-week-6.md — SM27 Removal
 **Timestamp:** 2026-04-13  
 **Task:** Remove all references to ShadeMessage27 content that never aired (stream ended at 170 minutes, SM27 was scheduled for 170-minute mark but never fired)

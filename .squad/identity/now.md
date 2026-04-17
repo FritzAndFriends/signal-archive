@@ -1,9 +1,9 @@
 ---
-updated_at: 2026-03-10T19:28:26.246Z
-focus_area: Blog content creation — signal-archive
+updated_at: 2026-04-17T20:45:00Z
+focus_area: Week 8 post approved — ready to publish
 active_issues: []
 ---
 
 # What We're Focused On
 
-Writing blog posts for signal-archive documenting Charlie the chatbot's anomalous behavior during Jeff Fritz's Twitch streams. Team assembled: Keith (Lead), Pidge (Analyst), Lance (Writer), Hunk (Editor). Voice: anonymous clinical observer, no editorializing, pattern-tracking, "Observation continues."
+Week 8 post ("The Lines Move") approved for publication after Pidge added 11 YouTube embeds. Hunk re-review passed all checkpoints. Ready to merge to main branch and publish.

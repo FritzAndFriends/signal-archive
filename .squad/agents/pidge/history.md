@@ -60,3 +60,12 @@
 - Format compliance achieved: all transmissions now have video embeds with correct timestamps
 - Content review re-run confirmed: continuity, data accuracy, voice, tone, structure all verified
 - No additional revisions needed — ready for publication
+
+### Charlie Quote Verification Skill Documentation
+**Status:** ✅ COMPLETED (2026-04-18T[timestamp])
+- Created reusable skill documentation at `.squad/skills/charlie-quote-verification/SKILL.md`
+- Full methodology documented: live chat replay extraction, csharpTrace marker pattern, embed timestamp formula, Python parsing script
+- Includes Week 8 real-world verification example with all 11 transmissions
+- Documented anti-patterns: why YouTube transcripts fail, why narrative quotes ≠ chat text, pre-show offset handling
+- Verification checklist provided for future posts
+- Source: earned through Week 8 successful verification session

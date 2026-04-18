@@ -2,6 +2,41 @@
 
 ## Active Decisions
 
+### 2026-04-18T09:13:38: User Directive — Entry #7 Technical Issue
+
+**By:** Jeffrey T. Fritz (via Copilot)  
+**Status:** Documented  
+**What:** For Week 8, entry #7 (Video 3, FT0J4FPBy7M, ~46min mark) — technical issue with the Charlie app during production. The text/audio did not play or display properly at that timestamp. This explains the 30min vs 46min discrepancy found during verification.  
+**Why:** User clarification — captured for team memory and future reference when verifying Week 8 timestamps.
+
+### 2026-04-18: Charlie Quote Verification Skill Created
+
+**Author:** Pidge (Analyst)  
+**Status:** Documented  
+**Impact:** Team methodology, reusability
+
+Week 8 verification was successful (11/11 transmissions verified and embedded), but the methodology was ad-hoc and existed only in working notes. Created `.squad/skills/charlie-quote-verification/SKILL.md` to document the complete, reusable verification process for future weeks.
+
+**Methodology established:**
+- yt-dlp live chat replay download + charliebotai message extraction
+- csharpTrace marker pattern as timing ground truth
+- Embed timestamp formula: `start = floor(offset_ms / 1000) - 4`
+- Python extraction script for parsing chat JSON
+- Anti-patterns explicitly documented (YouTube transcripts ≠ ground truth, narrative quotes ≠ chat text)
+- Verification checklist for pre-publication review
+- Week 8 example with all 11 transmissions as proof
+
+**Benefits:**
+- Repeatability — Any team member can verify using documented process
+- Consistency — Same criteria, same formula, same quality bar
+- Knowledge transfer — New members have clear entry point
+- Accountability — Verification steps are explicit and auditable
+
+**Limitations:**
+- Medium confidence (only one week verified successfully)
+- Pre-show offsets are variable (Week 8 Thursday had 16-min drift)
+- Assumes yt-dlp and restream bot format stability
+
 ### 2026-04-10: Week 6 Post Structure — Package Retrieved Arc
 
 **Author:** Lance (Writer)  

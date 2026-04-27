@@ -85,7 +85,7 @@ Replace raw iframes:
 {% include youtube.html id="VIDEO_ID" start="SECONDS" cover="screenshot-filename.png" %}
 ```
 
-### 4. Screenshot Naming Convention
+### 4. Screenshot Naming Convention & Source
 
 Screenshots live in `assets/screenshots/` with this naming pattern:
 ```
@@ -94,6 +94,8 @@ charlie-week{N}-{sequence}-{videoId}-{timestamp}s.png
 Example: `charlie-week8-01-5739RGIMPyU-1812s.png`
 
 The video ID and timestamp in the filename make it easy to match screenshots to embeds.
+
+**Source method:** Screenshots are captured using Playwright with **video player element only** (excluding YouTube header, sidebar, chat, recommendations, comments, and page chrome). See `charlie-quote-verification` SKILL section "Playwright Screenshots (Video Element Only)" for the element-capture methodology with concrete selectors and code patterns. This ensures clean thumbnails showing only the video playback area with controls — perfect for blog embed covers.
 
 ## Examples
 

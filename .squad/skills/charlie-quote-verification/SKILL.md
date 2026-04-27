@@ -147,12 +147,74 @@ def extract_charlie_messages(chat_json_file):
     return results
 ```
 
-### Secondary Method: Playwright Screenshots (Visual Verification)
+### Secondary Method: Playwright Screenshots (Video Element Only)
 
-- Navigate to YouTube watch page at specific timestamp: `https://www.youtube.com/watch?v={VIDEO_ID}&t={SECONDS}`
-- Wait for chat replay to load on the right side
-- Capture screenshot showing the `[Twitch: charliebotai]` message in chat
-- Useful for visual proof / documentation but NOT for precise timing extraction (chat UI can have rendering delays)
+**Purpose:** Capture visual snapshots of the video player at each transmission moment. Extract **video element only**, explicitly excluding YouTube header, sidebar, chat, recommendations, comments, overlays, and browser chrome.
+
+**Selectors and Element Structure:**
+- Primary video element selector: `.html5-main-video` (the actual video `<video>` tag inside the player)
+- Player container selector: `#movie_player` (wraps the video with controls)
+- **Exclusions:** Do not capture `ytd-player` (outer wrapper), `yt-live-chat-renderer` (chat panel), `ytInitialData` overlays, recommendation sidebar, comment sections, or page header
+- For element-screenshot approach: target the player container (`#movie_player`) to include video + native controls but exclude all surrounding UI
+
+**Method:**
+1. Navigate to YouTube watch page at specific timestamp: `https://www.youtube.com/watch?v={VIDEO_ID}&t={SECONDS}`
+2. Wait for video player to load: `page.wait_for_load_state('networkidle')`
+3. **Locate and wait for the video player element** (not the page):
+   - Use selector: `page.locator('#movie_player')`
+   - Wait for visibility: `await player_locator.wait_for(state='visible')`
+4. **Screenshot the player element only** — use Playwright element screenshot (not full page):
+   - Call: `await player_locator.screenshot(path=output_path)`
+   - This captures ONLY the `#movie_player` div and its contents (video + controls)
+   - Everything outside the player (sidebar, chat, header, footer) is excluded
+5. Save screenshot with naming convention: `charlie-week{N}-{sequence}-{videoId}-{timestamp}s.png`
+
+**Playwright code pattern:**
+```python
+import asyncio
+from playwright.async_api import async_playwright
+
+async def capture_video_element(video_id: str, start_seconds: int, output_path: str):
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+        page = await browser.new_page()
+        
+        # Navigate to YouTube with timestamp
+        await page.goto(f"https://www.youtube.com/watch?v={video_id}&t={start_seconds}", wait_until='networkidle')
+        
+        # Locate the video player container
+        player = page.locator('#movie_player')
+        
+        # Wait for player to be visible and ready
+        await player.wait_for(state='visible', timeout=10000)
+        
+        # Screenshot ONLY the video player element
+        # This excludes: header, sidebar, chat panel, recommendations, comments, overlays
+        await player.screenshot(path=output_path)
+        
+        await browser.close()
+```
+
+**What the screenshot will contain:**
+- ✅ Video playback area
+- ✅ Player controls (play/pause, timeline, volume, fullscreen button)
+- ✅ Video duration/current time display
+
+**What the screenshot will NOT contain:**
+- ❌ YouTube header (logo, search bar, notifications)
+- ❌ Chat replay panel (right sidebar)
+- ❌ Recommendations sidebar (right panel)
+- ❌ Comments section (below video)
+- ❌ Video title, description, channel info
+- ❌ Browser address bar and tabs
+
+**Key advantage:** Element screenshot isolation gives clean, minimal thumbnails suitable for blog embed covers and visual documentation.
+
+**Limitations:**
+- Not suitable for precise timing extraction (visual frame rates vary)
+- YouTube player load time can be variable; consider increasing `wait_for` timeout if needed
+- Headless mode may render player differently than headed mode (test both if quality issues arise)
+- Use for **visual documentation only**; rely on `csharpTrace` markers for timing ground truth
 
 ## Examples
 

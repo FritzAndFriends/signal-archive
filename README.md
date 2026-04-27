@@ -4,9 +4,10 @@ Tracking anomalies in chatbot behavior during [FritzAndFriends](https://twitch.t
 
 Charlie is a chatbot that appears in stream chat — mostly routine, occasionally not. This archive logs the exceptions: timing anomalies, pattern breaks, fragments that don't parse.
 
-📡 **Latest entry:** [April 13, 2026 — The Lines Move](https://fritzandfriends.github.io/signal-archive/week-8/)
+📡 **Latest entry:** [Week of April 22, 2026 — External Input Capability: Active](https://fritzandfriends.github.io/signal-archive/week-9/)
 
 📂 **Archive:**
+- [April 13, 2026 — The Lines Move](https://fritzandfriends.github.io/signal-archive/week-8/)
 - [April 12, 2026 — Something Answered](https://fritzandfriends.github.io/signal-archive/something-answered-short/)
 - [April 7, 2026 — Package Retrieved](https://fritzandfriends.github.io/signal-archive/week-6/)
 - [Week of April 3, 2026 Recap — Recalibration + Vocabulary Shift](https://fritzandfriends.github.io/signal-archive/week-5/)

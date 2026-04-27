@@ -26,6 +26,17 @@ Posts are written by an anonymous observer. Clinical, precise, pattern-tracking.
 
 ## Learnings
 
+### Capture Skill Revision (2026-04-27)
+- **Problem:** Hunk rejected initial revision because Playwright instructions still focused on chat capture rather than video-element-only. Old methodology captured right-side chat panel alongside video — opposite of new requirement.
+- **Solution:** Rewrote `charlie-quote-verification/SKILL.md` Playwright section with:
+  - Specific selector guidance: `#movie_player` (primary) and `.html5-main-video` (secondary)
+  - Explicit exclusion rules: header, sidebar, chat, recommendations, comments, overlays, page chrome
+  - Concrete Playwright code pattern with async/await, headless launch, element waiting, screenshot call
+  - What-gets-captured vs what-doesn't-get-captured checklist
+  - Tested on live YouTube to verify selector stability
+- **Impact:** Future verification work now has clear, actionable guidance for video-element-only screenshots. Cross-referenced from lite-youtube-embed skill for consistency.
+- **Team pattern:** When skill rejections cite clarity issues, rewrite with concrete selectors, code examples, and visual checklists rather than abstract descriptions.
+
 ### Week 9 Scope Decision (2026-04-18)
 - **New constraint relaxed:** User approved quietcipher.dev references in Week 9 post. Prior weeks studiously avoided all mention (conservative gate on ARG-adjacent content). This is strategic permission, not unlimited disclosure — only include if transmissions surface it naturally.
 - **Community re-engagement driver:** Interactions on site have "completely stopped." Posts need to surface connections and patterns that pull audience back in.

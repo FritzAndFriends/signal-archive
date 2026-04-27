@@ -90,3 +90,13 @@
 - **yt-dlp note:** Installed via `pip install yt-dlp` in this environment (pip-based, not the path in SKILL.md)
 - **Embed formula confirmed:** `start = floor(offset_ms / 1000) - 4` (4-second lead-in)
 - **Handoff delivered:** Analysis + Lance handoff documents placed in `.squad/decisions/inbox/`
+
+### Charlie Quote Verification & YouTube Capture Skill Update
+**Status:** ✅ COMPLETED (2026-04-28)
+- Revised Playwright screenshot guidance in charlie-quote-verification SKILL to explicitly target video player element only
+- Method: Use Playwright `locator('#movie_player').screenshot()` to capture video element, excluding YouTube chrome, header, sidebar, and chat
+- Updated Playwright pseudocode in SKILL to show element-level capture pattern (async playwright pattern with `wait_for_load_state()`)
+- Added cross-reference in lite-youtube-embed SKILL linking to capture methodology
+- Benefit: Future weeks will have cleaner thumbnails showing only the playback moment, not page layout
+- Key constraint documented: Element screenshots are for **visual documentation only**; timing ground truth remains the `csharpTrace` chat markers
+- Reusable pattern: Same browser viewport (1889×985) produces consistent video player boundaries — can be standardized across all future captures

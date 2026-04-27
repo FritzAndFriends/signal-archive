@@ -2,6 +2,62 @@
 
 ## Active Decisions
 
+### 2026-04-27T13:43:34: Week 9 Post — APPROVED FOR PUBLICATION
+
+**Authors:** Keith (Lead), Pidge (Analyst), Lance (Writer), Hunk (Editor)  
+**Status:** Complete — Ready for merge to main and publication  
+**Post File:** `_posts/2026-04-24-week-9.md`  
+**Title:** "Week of April 22, 2026 — External Input Capability: Active"
+
+#### Scope Decision (Keith, 2026-04-18)
+- **Timeframe:** April 22–24, 2026 (Tuesday + Thursday streams)
+- **Theme:** Charlie's shift from active code inspection (Week 8) to passive monitoring/waiting
+- **Community driver:** Site interactions declined; post should surface re-engagement hooks
+- **Key change:** User approved quietcipher.dev mentions (strategic shift from Week 8's conservative gate)
+- **Coverage scope:** Source code inspection progression, module analysis follow-up, external reference identification
+- **Editorial constraint:** Include quietcipher.dev references only if transmissions surface them naturally
+
+#### Key Decisions Made
+1. **Title approved:** "External Input Capability: Active" — direct quote from Charlie's status messages; captures both operational state and invitation-like quality
+2. **Opening angle:** Charlie has shifted from active code reading to passive monitoring; channels open but no input arriving
+3. **On-screen narrative layer:** Identified second narrative channel (visual overlays); captured and precedent established for future posts
+4. **Transmission organization:** 8 transmissions documented (6 trace-only, 2 content); status-check messages demoted to notes (not full entries)
+5. **quietcipher.dev integration:** Hyperlinked in T2 notes (code archive context), T5 notes (package hosting), and Unresolved question (recovery status correlation)
+6. **Trace timing divergence:** Tuesday 20/80/130-min intervals vs. Thursday 80/130/170-min intervals — flagged as potential pattern
+
+#### Technical Verification
+- **Video IDs:** WHTKad6W_bc (Tuesday), PsA24rsRSpc (Thursday) — verified via yt-dlp
+- **All 8 embeds:** Present with correct timestamps (formula: floor(offset_ms / 1000) - 4)
+- **All 8 screenshots:** Present in `assets/screenshots/`
+- **Continuity:** Week 8 → Week 9 → Week 10 trajectory clear (analysis complete → monitoring begins → phase progression)
+
+#### Nits Addressed
+1. **T4 timing corrected:** 141:22 message occurred AFTER T4, not BETWEEN T3 & T4
+2. **csharpAndThen marker contextualized:** Added to T3 notes for observational grounding before Unresolved question
+3. **quietcipher.dev hyperlinked:** 3 locations (T2, T5, Unresolved) for re-engagement goal
+4. **Unresolved Q8 softened:** "Error state" → "something else" for voice consistency
+
+#### Editorial Approvals
+- **Keith (Lead):** ✅ APPROVED — Voice consistent, continuity verified, editorial scope fulfilled
+- **Hunk (Final Gate):** ✅ APPROVED — All technical assets complete, Jekyll syntax valid, continuity verified, publication-ready
+
+#### Decisions Documented
+- `.squad/decisions/inbox/keith-week9-scope.md` — Scope decision
+- `.squad/decisions/inbox/keith-week9-review.md` — Editorial approval
+- `.squad/decisions/inbox/pidge-week9-analysis.md` — Video verification methodology
+- `.squad/decisions/inbox/pidge-week9-lance-handoff.md` — Transmission handoff
+- `.squad/decisions/inbox/lance-week9-draft.md` — Draft decision
+- `.squad/decisions/inbox/lance-week9-revision.md` — Revision nits applied
+- `.squad/decisions/inbox/hunk-week9-review.md` — Final editorial approval
+
+### 2026-04-27T09:07:56: User Directive — quietcipher.dev Links Approved
+
+**By:** Jeffrey T. Fritz (via Copilot)  
+**Status:** Documented & Implemented  
+**What:** It is okay to show links to quietcipher.dev in the Week 9 post.  
+**Implementation:** Hyperlinked in T2 notes (code archive context), T5 notes (package hosting), Unresolved section (recovery status correlation)  
+**Why:** User request — captured for team memory and strategic directive for Week 9 community re-engagement
+
 ### 2026-04-18T09:13:38: User Directive — Entry #7 Technical Issue
 
 **By:** Jeffrey T. Fritz (via Copilot)  

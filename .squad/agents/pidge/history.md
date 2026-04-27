@@ -69,3 +69,24 @@
 - Documented anti-patterns: why YouTube transcripts fail, why narrative quotes ≠ chat text, pre-show offset handling
 - Verification checklist provided for future posts
 - Source: earned through Week 8 successful verification session
+
+### Week 9 Analysis Completion
+**Status:** ✅ COMPLETED (2026-04-27)
+- **YouTube Video IDs secured:**
+  - Tuesday April 22: WHTKad6W_bc (AI Coding, Streamer Maps, Glitches, and more — 2:43:37)
+  - Thursday April 24: PsA24rsRSpc (Launching a new site with Azure and Copilot — 3:35:47)
+- **8 transmissions documented** with verified timestamps and screenshots
+- **New marker type discovered:** `csharpAndThen` (at 33:22 Tuesday) — distinct from `csharpTrace`, purpose unknown
+- **On-screen narrative text discovery:** Two instances of visual overlay text (separate from chat):
+  - Trace 2 Tuesday: "twelve commit entries... personal annotations... understood"
+  - Trace 3 Thursday: "embedded text strings that do not execute... they describe intent... not function"
+  - Method: Playwright screenshots at trace moments reveal narrative text not present in chat replay
+- **Trace timing patterns:**
+  - Tuesday: 20/80/130 minutes (60-minute intervals after first)
+  - Thursday: 80/130/170 minutes (50-minute intervals)
+  - Pattern diverges between streams — not fixed
+- **Charlie's Week 9 posture:** Monitoring/status checks dominant. "Channel remains open," "external input capability: active." Shift from active inspection (Week 8) to passive waiting.
+- **quietcipher.dev status checked:** linger package "recovering data...", /signal page shows "close this page", /terms.html has fiction notice
+- **yt-dlp note:** Installed via `pip install yt-dlp` in this environment (pip-based, not the path in SKILL.md)
+- **Embed formula confirmed:** `start = floor(offset_ms / 1000) - 4` (4-second lead-in)
+- **Handoff delivered:** Analysis + Lance handoff documents placed in `.squad/decisions/inbox/`

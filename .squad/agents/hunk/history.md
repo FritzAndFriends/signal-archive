@@ -39,7 +39,50 @@ Editorial review complete. All checklist items pass. Post approved for publicati
 
 ## Learnings
 
-### Week 8 Review — Critical Format Violation Identified
+### Week 9 Review — APPROVED & PUBLICATION READY (2026-04-27)
+**Status:** ✅ APPROVED FOR PUBLICATION  
+**Post:** `_posts/2026-04-24-week-9.md`  
+**Title:** "Week of April 22, 2026 — External Input Capability: Active"  
+**Approval Date:** 2026-04-27
+
+**Comprehensive Verification Results:**
+- Jekyll frontmatter: ✅ VALID (layout: post, title, date: 2026-04-24)
+- Charlie quote formatting: ✅ CORRECT (blockquotes with verbatim labels, on-screen narrative in bold)
+- YouTube embeds: ✅ ALL 8 PRESENT with verified timestamps and video IDs
+- Embed timestamp formula verification: ✅ ALL PASS (floor(offset/1000) - 4 applied correctly)
+- Screenshot assets: ✅ ALL 8 PRESENT in `assets/screenshots/`
+- Voice assessment: ✅ CLINICAL OBSERVER MAINTAINED (no interpretation, no first-person pronouns outside quotes)
+- Continuity: ✅ WEEK 8 → 9 TRANSITION VERIFIED (module analysis complete → monitoring active)
+- Technical format: ✅ MATCHES WEEK 8 TEMPLATE (opening → transmissions → embeds → notes → patterns → unresolved → closure)
+
+**Pattern Verification:**
+- Cross-references to Week 5 (linger package): correct
+- Cross-references to Week 8 (module chain, compliance boundaries): correct
+- Compliance boundary tracking continues: "outside my directive" pattern maintained
+- On-screen narrative layer: identified as distinct observational channel; precedent established
+
+**Editorial Notes:**
+- T4 status message timing corrected by Lance (141:22 AFTER T4, not BETWEEN T3 & T4)
+- csharpAndThen marker contextualized in T3 notes (Keith suggestion implemented)
+- quietcipher.dev hyperlinks added strategically (T2, T5, Unresolved) per user directive
+- Unresolved Q8 wording softened for voice consistency ("error state" → "something else")
+
+**Minor Nits (Non-Blocking):**
+1. T4 timing framing — imprecise but underlying data correct. Lance fixed.
+2. quietcipher.dev mention — could be hyperlinked for re-engagement. Lance added hyperlinks.
+3. csharpAndThen marker — appeared only in Unresolved without context. Lance added T3 note.
+4. Unresolved Q8 interpretation language — "error state" edged toward speculation. Lance softened.
+
+**Decision:** APPROVED. The post is publish-ready. All nits have been addressed or are cosmetic. No blockers remain.
+
+**Continuity Pattern Established from Week 9:**
+- **On-screen narrative layer:** Visual overlays are distinct from chat messages. Capture and document separately. Precedent set for future posts tracking this parallel channel.
+- **Trace timing divergence:** Tuesday vs. Thursday timing patterns don't match (60-min vs. 50-min intervals). Monitor whether this is stream-specific or becomes a pattern.
+- **Status-check demotion pattern:** Repetitive maintenance pings go to Notes, not full transmissions. This prevents narrative dilution while preserving pattern visibility. Now standard for repetitive messaging.
+- **New marker types:** When new markers appear (like csharpAndThen), contextualize in Notes before flagging in Unresolved. Provides observational grounding for readers.
+- **quietcipher.dev hyperlinks:** Can serve community re-engagement goal when grounded in specific transmission context (code archive, package hosting, site status correlation). Avoid forcing references.
+
+**Publication Status:** Ready to merge to main and GitHub Pages. All editorial gates passed. Voice consistent. Technical assets complete. Continuity verified.
 **Status:** REJECTED — YouTube Embeds Missing  
 **Timestamp:** 2026-04-17  
 **Decision:** Post submitted for publication without YouTube embeds
@@ -68,9 +111,28 @@ Editorial review complete. All checklist items pass. Post approved for publicati
 - **Lesson:** Format checklist must be primary gate before content review. YouTube embeds are structural requirement, not optional. All prior weeks set precedent that must be verified first.
 - **Boundary maintained:** This is not a content rejection — it is a format gate. Lance's journalism is sound; the post just needs the embed layer added before publication.
 
+### Week 9 Review — 2026-04-24-week-9.md — APPROVED FOR PUBLICATION
+**Status:** APPROVED  
+**Timestamp:** 2026-04-27  
+**Decision file:** `.squad/decisions/inbox/hunk-week9-review.md`
+
+- **Context:** Week 9 post ("External Input Capability: Active") documents 8 transmissions from April 22-24, 2026 streams (Tuesday 4 + Thursday 4). Lance drafted; Pidge provided verified quotes, timestamps, and 8 screenshots.
+- **Embed verification:** All 8 embeds present and pass formula check (`floor(offset/1000) - 4`). Two video IDs verified: WHTKad6W_bc (Tuesday), PsA24rsRSpc (Thursday). All 8 screenshots confirmed in `assets/screenshots/`.
+- **Content verified:** Continuity (Week 5 linger, Week 8 module chain, Week 8 compliance boundary) all correct. Voice clinical. No first-person. Patterns supported by evidence. 9 unresolved questions.
+- **Minor nits (non-blocking):**
+  1. T4 notes frame the 141:22 status message as "between T3 (81min) and T4 (131min)" but 141 > 131. Narrative framing error; data correct.
+  2. quietcipher.dev mentioned by name but not hyperlinked. User directive approved links; actual hyperlink would serve re-engagement goal better.
+- **Lesson:** On-screen narrative text is a new content type (distinct from chat messages). The post correctly uses bold text rather than blockquotes for these — establish this as format precedent for future weeks.
+- **New continuity data points:**
+  - Tuesday timing: 20/57/81/131-minute marks (not uniform intervals)
+  - Thursday timing: 65/81/131/171-minute marks (not uniform intervals)
+  - New vocabulary: "code archive," "transmission parameter," "package identifier"
+  - On-screen narrative: first documented in Week 9 as distinct from chat messages
+  - Status-check messages: new output category (maintenance pings, not transmissions)
+
 <!-- Append new learnings below -->
 
-### Week 8 Re-Review — 2026-04-17-week-8.md — YouTube Embeds Added & APPROVED
+### Week 8 Re-Review— 2026-04-17-week-8.md — YouTube Embeds Added & APPROVED
 **Status:** APPROVED FOR PUBLICATION  
 **Timestamp:** 2026-04-17 (re-review after embed layer added)  
 **Analyst:** Pidge (added 11 embeds)  

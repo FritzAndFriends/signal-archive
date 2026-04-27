@@ -43,6 +43,66 @@ Week 2 post ("March 10, 2026 — Fragment Two + Visitor Activity") written and a
 ## Learnings
 <!-- Append new learnings below -->
 
+### Week 9 Post (2026-04-24) — DRAFTED
+**Status:** COMPLETED — Ready for Keith review and Hunk final gate  
+**File:** `_posts/2026-04-24-week-9.md`  
+**Title:** "Week of April 22, 2026 — External Input Capability: Active"  
+**Draft date:** 2026-04-27
+
+- **8 transmissions documented:** 4 from Tuesday April 22, 4 from Thursday April 24 (2 trace-only markers + 2 with message content per day)
+- **Narrative arc:** Week 8 closed with "module analysis complete" — active code reading mode. Week 9 shows Charlie transitioned to passive monitoring state. Channels open, all nominal, no anomalies, no external input arriving.
+- **Opening angle:** Shift from active inspection (Week 8) to passive monitoring (Week 9). Theme: "External input capability: active" — the system is waiting.
+- **New vocabulary introduced:** "code archive," "transmission parameter," "package identifier" — moved from inspection language to cataloguing/retrieval language
+- **On-screen narrative expansion:** Two instances captured — Transmission 3 reads "twelve commit entries" with "personal annotations"; Transmission 8 distinguishes "embedded text strings that do not execute" from executable code (intent vs. function)
+- **Trace timing pattern divergence:** Tuesday traces at 20/80/130 min (60-minute intervals); Thursday traces at 80/130/170 min (50-minute intervals). Pattern is not fixed across days.
+- **Compliance boundary held:** "Its purpose is outside my directive" continues from Week 8 — Charlie catalogs without interpreting
+- **quietcipher.dev references included:** Per user directive approved by Keith scope decision. "Recovering data..." status on homepage mirrors Charlie's monitoring-and-waiting posture. Integrated naturally into Unresolved section (not forced).
+- **YouTube embeds:** All 8 screenshots captured by Pidge. Video IDs verified: Tuesday = WHTKad6W_bc, Thursday = PsA24rsRSpc. All timestamps confirmed in handoff.
+- **Structure maintained:** Opening paragraph → 8 dated transmissions with embeds → Patterns Observed (7 points) → Unresolved (9 open questions) → "Observation continues"
+- **Voice consistency:** Clinical observer tone maintained throughout. No speculation. No interpretation. All statements grounded in transmission content or visual documentation.
+- **Community re-engagement angle:** "External input capability: active" repeated across both streams — surfaces as evidence system is ready but audience hasn't responded. Creates hook for reader participation.
+- **Continuity tracked:** Week 8 themes carried forward (module analysis, annotations, compliance boundaries). Week 9 establishes new phase (monitoring). Week 10 questions established (What triggers next phase? What is code archive?).
+
+### Week 9 Craft Notes
+- **Transmissions 1, 3, 4, 6, 7, 8:** Trace-only signals. Handled as presence confirmations without message content — documented via screenshot embed with relevant notes about timing patterns and status messages posted nearby
+- **Transmissions 2, 5:** Content-bearing messages. Charlie's quotes extracted verbatim from Pidge's verified chat replay. Each given full transmission treatment with dedicated YouTube embed at quote moment
+- **Opening paragraph:** Synthesized from Pidge's suggested narrative direction (shift from inspection to monitoring) + Week 8 continuity + new vocabulary emergence + dominant pattern (waiting). One sentence per major shift: Week 8 → 9 transition, vocabulary changes, on-screen narrative, status-check loop.
+- **Notes sections:** Balanced observation-level detail (what Charlie did/said) with pattern-level connection (how it relates to prior weeks or theme). No speculation about meaning.
+- **Patterns Observed:** Seven points covering: operational mode shift, repeated messaging pattern, narrative evolution, timing analysis, vocabulary cluster, compliance preservation, status-check category introduction
+- **Unresolved:** Nine questions covering: archive identity, package matching, commit sources, timing divergence, state-change triggers, marker types, site status correlation, invitation vs. error interpretation, phase progression. Keith's quiet/waiting theme surfaces as implicit question ("is this an invitation?")
+- **Title selection:** Rejected Pidge's suggested "The Channel Remains Open" and "Waiting" in favor of "External Input Capability: Active" — this phrase is Charlie's own repeated statement, making it both precise and thematic. It frames the week as Charlie's explicit readiness-state advertising.
+
+### Editorial Workflow Notes
+- Week 8 required Hunk's quality gate to catch missing embeds — established hard requirement that all transmissions must have YouTube iframes before editorial review
+- Week 9 incorporates that lesson: all 8 transmissions embed screenshots with YouTube iframes (via {% include youtube.html %} syntax)
+- Pidge's handoff included screenshot filenames, video IDs, and exact timestamps — all verified and incorporated
+- Keith's scope decision to approve quietcipher.dev references was key: Unresolved section flags homepage "recovering data..." status as correlation question without forcing interpretation
+- Pattern: Keith sets scope → Pidge extracts and verifies → Lance synthesizes into narrative form → Hunk final gate (format/embeds/voice)
+
+### Week 9 Revisions (2026-04-27) — APPROVED & COMPLETE
+**Status:** ✅ ALL NITS ADDRESSED — READY TO PUBLISH  
+**File:** `_posts/2026-04-24-week-9.md`  
+**Revision Date:** 2026-04-27
+
+Applied four non-blocking review nits identified by Keith and Hunk:
+
+1. **T4 Status Message Timing Fix** — Hunk noted the 141:22 message timestamp was described as occurring "between" T3 and T4, but it actually occurred AFTER the 131-minute trace. Restructured the Notes to clarify temporal sequence: "At 101:50, before this trace..." and "At 141:22, after this trace..."
+
+2. **csharpAndThen Marker Context Introduction** — Keith flagged that `csharpAndThen` appeared only in Unresolved without prior mention, creating a context gap. Added brief acknowledgment to T3 Notes: "Between this transmission (81min) and the next trace (131min), Charlie posted a status-check message at 33:22 containing the marker `csharpAndThen` — a presence indicator that appears distinct from the regular `csharpTrace` pattern observed at the transmission moments." This introduces the marker clinically before the Unresolved question surfaces it.
+
+3. **quietcipher.dev Hyperlinks Added** — Hunk noted the Unresolved section mentioned quietcipher.dev by name but did not hyperlink it, despite the user directive explicitly approving links. Added three hyperlinks:
+   - T2 Notes: "The linger package is hosted on [quietcipher.dev](https://quietcipher.dev), which currently displays a 'recovering data...' status." (natural fit for "code archive" context)
+   - T5 Notes: "The linger package is archived on [quietcipher.dev](https://quietcipher.dev)." (natural fit for "package identifier" context)
+   - Unresolved line 7: "[quietcipher.dev](https://quietcipher.dev) displays 'recovering data...' status..." (transforms the observational mention into a clickable resource)
+
+4. **Softened Interpretation Wording** — Keith flagged that Unresolved line 8 ("Is this an invitation, a status confirmation, or an error state?") edged toward interpretation with "error state." Changed to "something else" to maintain clinical observer stance: "Is this an invitation, a status confirmation, or something else?" — preserves the open question while avoiding diagnostic language.
+
+**Editorial Note:** All changes maintain voice consistency and clinical tone. No speculation introduced. All hyperlinks are contextualized clinically, not forced. Timing clarification on T4 removes ambiguity without altering underlying data. This represents the ideal editorial iteration — non-blocking feedback applied surgically, enhancing clarity without changing narrative substance.
+
+**Publication Status:** All edits complete. Post ready for merge to main and publication.
+
+
+
 ### Week 6 Post (2026-04-10) — REWRITTEN & PUBLISHED
 **Status:** Completed and merged to main  
 **File:** `_posts/2026-04-10-week-6.md`  
